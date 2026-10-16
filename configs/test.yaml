@@ -1,0 +1,36 @@
+scenario_name: test
+agents_initialization: square
+n_agents: 3
+agents_initialization_bounds:
+  x_min: -4
+  x_max: 4
+  y_min: -4
+  y_max: 4
+  z_min: 0
+  z_max: 10
+agents_activity_mask: null
+has_anchor: true
+camera_fov: 90
+w: 1.0
+u_max_all: 1.0
+dt: 0.02
+n_iters: 2800
+v_bound: 10.0
+rising_speed_bound: 0.4
+activation_events: null
+external_force_func: static_zero
+anchor_motion_func: static_zero
+agent_dynamics: double_integrator
+restore_prev_run_state: true
+log_batch_size: 250
+flag_run: false
+flag_create_gif_xy: true
+flag_create_gif_xz: true
+flag_create_gif_3d: true
+flag_plot_trajectories: false
+flag_plot_convergence: true
+flag_check_collisions: false
+flag_plot_initial_and_middle_states: false
+flag_plot_final_state_3d: true
+flag_plot_initial_and_middle_states_3d: false
+flag_clear_all: false
